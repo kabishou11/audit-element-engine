@@ -1,0 +1,13 @@
+.env
+venv/
+__pycache__/
+*.pyc
+
+参考规则数据/
+凭证附件/
+docs/
+outputs/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
