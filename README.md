@@ -1,4 +1,6 @@
-# 三资监管凭证附件识别服务
+# audit-element-engine
+
+三资监管凭证附件识别服务。
 
 基于 FastAPI + Qwen(ModelScope OpenAI 兼容接口) 多模态模型，实现：
 
@@ -41,8 +43,8 @@
 
 1. 创建并激活 `venv`
 2. 如 `venv` 尚未创建，可执行：`python -m venv venv`
-2. 安装依赖：`venv\Scripts\python.exe -m pip install -r requirements.txt`
-3. 复制 `.env.example` 为 `.env` 并填写 MiniMax 配置
+3. 安装依赖：`venv\Scripts\python.exe -m pip install -r requirements.txt`
+4. 复制 `.env.example` 为 `.env` 并填写模型配置
 
 ## 终端跑批
 
